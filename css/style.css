@@ -1,6 +1,8 @@
 @import url("font-awesome.min.css");
 @import url("//fonts.googleapis.com/css?family=Raleway:100,200,300,500,600,700,800,900");
 
+
+
 /*
 	Phase Shift by TEMPLATED
 	templated.co @templatedco
@@ -631,3 +633,56 @@
 		text-align: center;
 		border-radius: 0px 0px 6px 6px;
 	}
+	/* Estilos por defecto (modo claro) ya están en tu plantilla */
+/* Modo oscuro */
+.dark-mode {
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+}
+
+.dark-mode #header {
+    background-color: #333333; /* Encabezado oscuro */
+}
+
+.dark-mode #banner {
+    background-color: #2a2a2a; /* Banner oscuro */
+}
+
+.dark-mode .button {
+    background-color: #444444; /* Botones oscuros */
+    color: #ffffff;
+    border: 2px solid #66b3ff; /* Borde azul claro para combinar con los enlaces */
+    padding: 8px 16px; /* Espaciado interno para un tamaño intermedio */
+    font-size: 16px; /* Tamaño de texto moderado */
+    display: inline-block; /* Para que el padding funcione bien */
+    border-radius: 5px; /* Bordes ligeramente redondeados, opcional */
+}
+
+.dark-mode .box {
+    background-color: #2a2a2a; /* Cajas oscuras */
+}
+
+.dark-mode #footer {
+    background-color: #333333; /* Pie de página oscuro */
+}
+
+/* Ajustar otros elementos si es necesario */
+.dark-mode a {
+    color: #66b3ff; /* Enlaces en modo oscuro */
+}
+  /* Estilo del botón */
+  #toggleBtn {
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(135deg, #4CAF50, #2E7D32);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }

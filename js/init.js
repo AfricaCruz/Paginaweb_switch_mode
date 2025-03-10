@@ -67,3 +67,17 @@
 	});
 
 })(jQuery);
+const toggleBtn = document.getElementById("toggleBtn");
+    const body = document.body;
+
+    toggleBtn.addEventListener("click", () => {
+      body.classList.toggle("night");
+
+      // Cambiar el texto del botón dependiendo del estado
+      if (body.classList.contains("night")) {
+        toggleBtn.textContent = "Modo Día";
+      } else {
+        toggleBtn.textContent = "Modo Noche";
+      }
+    });
+	
